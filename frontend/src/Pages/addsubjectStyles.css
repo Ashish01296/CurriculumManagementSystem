@@ -1,0 +1,59 @@
+.cont-3{
+    width: 50%;
+    height: 65%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    overflow:auto;
+}
+
+.block {
+    display: inline-block;
+    width: 45%;
+}
+
+.title {
+    position: absolute;
+    align-self: center;
+    font-size: 2rem;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scrollhost {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.scrollhost::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-bar {
+    width: 10px;
+    height: 100%;
+    right: 0;
+    top: 0px;
+    position: absolute;
+    border-radius: 7px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.scrollhost-container {
+    position: relative;
+    height: 100%;
+}
+
+@media screen and (max-width: 850px) {
+    .cont-3 {
+        width: 80%;
+    }
+}
